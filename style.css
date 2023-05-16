@@ -1,0 +1,155 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+}
+
+.images {
+    width: 256px;
+    height: 600px;
+    right: 60%;
+    position: absolute;
+}
+
+.logo {
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    border-radius:22.5%;
+    background-image: url('logo.png');
+}
+
+.download_icon {
+    width: 100%;
+    height: 98px;
+    position: relative;
+    top: 256px;
+    margin: auto;
+    background-image: url('Download_on_the_App_Store_Badge_US-UK_135x40.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.introduction {
+    height: 100%;
+    width: 40%;
+    left: 40%;
+    right: 20%;
+    position: relative;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    padding-top: 60px;
+    margin: 20px auto;
+    text-align: center;
+    color: #757575;
+}
+
+h1 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+h2 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+h3 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+p {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media (max-width: 736px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        height: 100%;
+        width: 100%;
+        padding-top: 0%;
+        margin-top: 0;
+    }
+
+    .images {
+        position: static;
+        width: 100%;
+        height: 356px;
+        margin: auto;
+        padding-top: 8%;
+        padding-bottom: 6%;
+        background-color: #90CAF9;
+        border: 1px solid #90CAF9;
+    }
+
+    .logo {
+        width: 256px;
+        height: 256px;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .download_icon {
+        width: 256px;
+        height: 98px;
+        position: relative;
+        top: 272px;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+
+    .introduction {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0;
+        margin-top: 0px;
+    }
+
+    .footer {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin: 0px;
+        background-color: #212121;
+        border: 1px solid #212121;
+    }
+}
+
+@media only screen and (min-device-pixel-ratio: 2),
+       only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .logo {
+        background-image: url('logo_2x.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-device-pixel-ratio: 3),
+       only screen and (-webkit-min-device-pixel-ratio: 3) {
+    .logo {
+        background-image: url('logo_3x.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
